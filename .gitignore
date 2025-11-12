@@ -1,0 +1,103 @@
+# ======================================
+# Global Node / JavaScript ignores
+# ======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Environment files
+# ======================================
+.env
+.env.*
+!.env.example
+
+# ======================================
+# Logs
+# ======================================
+logs
+*.log
+logs/*
+debug.log
+error.log
+nohup.out
+
+# ======================================
+# OS / Editor specific files
+# ======================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ======================================
+# Vite / React build outputs
+# ======================================
+frontend/dist/
+admin/dist/
+
+# ======================================
+# Express build / runtime folders
+# ======================================
+backend/uploads/
+backend/tmp/
+backend/logs/
+backend/dist/
+backend/.cache/
+
+# ======================================
+# Test coverage & temp files
+# ======================================
+coverage/
+*.lcov
+tmp/
+temp/
+.cache/
+.vite/
+
+# ======================================
+# Miscellaneous
+# ======================================
+*.local
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.tar.gz
+
+# ======================================
+# Optional: ignore system files
+# ======================================
+*.bak
+*.backup
+*~
+
+# ======================================
+# Ignore build artifacts
+# ======================================
+build/
+out/
+dist/
+
+# ======================================
+# Ignore IDE specific folders
+# ======================================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ======================================
+# End of file
+# ======================================
+
+
+backend/.env
+backend/.env
